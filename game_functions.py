@@ -3,7 +3,7 @@ import pygame
 
 
 def check_KeyDown_events(event, ship):
-    """Responds to KeyPress Events"""
+    """Responds to KeyPress Events change"""
     if event.key == pygame.K_RIGHT:
             ship.moving_right = True
     elif event.key == pygame.K_LEFT:
